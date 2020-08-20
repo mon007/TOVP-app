@@ -1,0 +1,182 @@
+{
+    name: "Radharani Coin",
+    type: "coin",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Radharani Coin (Diamond Trustee)",
+    amount: "$1,000,000",
+    pic: require("../../src/coin/Radharani-coin-2.png"),
+    modalTitle: "SPONSOR A RADHARANI COIN",
+    installmentArr: [1, 2, 5, 10, 15, 25, 32, 44]
+  },
+  {
+    name: "Caitanya Coin",
+    type: "coin",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Caitanya Coin (Platinum Trustee)",
+    amount: "$250,000",
+    pic: require("../../src/coin/Caitanya-coin-2.png"),
+    modalTitle: "SPONSOR A CAITANYA COIN",
+    installmentArr: [1, 2, 5, 10, 15, 25, 32, 44]
+  },
+  {
+    name: "Nityananda Coin",
+    type: "coin",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Nityananda Coin (Gold Trustee)",
+    amount: "$108,000",
+    soldOutStatus: false,
+    pic: require("../../src/coin/Nityananda-coin-2.png"),
+    modalTitle: "SPONSOR A NITYANANDA COIN",
+    installmentArr: [1, 2, 5, 10, 15, 25, 32, 44]
+  },
+  {
+    name: "Advaita Coin",
+    type: "coin",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Advaita Coin (Silver Premium Patron)",
+    amount: "$51,000",
+    pic: require("../../src/coin/Advaita-coin-2.png"),
+    modalTitle: "SPONSOR AN ADVAITA COIN",
+    installmentArr: [1, 2, 5, 10, 15, 25, 32, 44]
+  },
+  {
+    name: "Gadadhara Coin",
+    type: "coin",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Gadadhara Coin (Silver Plus Patron)",
+    amount: "$25,000",
+    pic: require("../../src/coin/Gadadhara-coin-2.png"),
+    modalTitle: "SPONSOR A GADADHAR COIN",
+    installmentArr: [1, 2, 5, 10, 15, 25, 32, 44]
+  },
+  {
+    name: "Srivas Coin",
+    type: "coin",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Srivas Coin (Silver Patron)",
+    amount: "$11,000",
+    pic: require("../../src/coin/Srivas-coin-2.png"),
+    modalTitle: "SPONSOR A SRIVAS COIN",
+    installmentArr: [1, 2, 5, 10, 15, 25, 32, 44]
+  },
+  {
+    name: "Atma Nivedanam Pillar",
+    type: "pillar",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Atma Nivedanam Pillars (only 32)",
+    amount: "$108,000",
+    pic: require("../../src/coin/pillars-2.png"),
+    modalTitle: "SPONSOR A PILLAR OF DEVOTION",
+    installmentArr: [1, 3, 6, 12, 18, 24, 30, 36]
+  },
+  {
+    name: "Smaranam Pillar",
+    type: "pillar",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Smaranam Pillars (only 34)",
+    amount: "$51,000",
+    pic: require("../../src/coin/pillars-2.png"),
+    modalTitle: "SPONSOR A PILLAR OF DEVOTION",
+    installmentArr: [1, 3, 6, 12, 18, 24, 30, 36]
+  },
+  {
+    name: "Kirtanam Pillar",
+    type: "pillar",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "Kirtanam Pillars (only 32)",
+    amount: "$31,000",
+    pic: require("../../src/coin/pillars-2.png"),
+    modalTitle: "SPONSOR A PILLAR OF DEVOTION",
+    installmentArr: [1, 3, 6, 12, 18, 24, 30, 36]
+  },
+  {
+    name: "Sravanam Pillar",
+    type: "pillar",
+    soldOutStatus: true,
+    soldOutText: "Pillars of Sravanam",
+    title: "Sravanam Pillars (only 10)",
+    amount: "$21,000",
+    pic: require("../../src/coin/pillars-2.png"),
+    modalTitle: "SPONSOR A PILLAR OF DEVOTION",
+    installmentArr: [1, 3, 6, 12, 18, 24, 30, 36]
+  },
+  {
+    name: "RADHA-MADHAVA BRICK",
+    type: "brick",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "RADHA-MADHAVA BRICK",
+    amount: "$2500",
+    pic: require("../../src/coin/radha-madhava-brick.png"),
+    modalTitle: "SPONSOR A RADHA-MADHAVA BRICK",
+    installmentArr: [1,2, 5, 10, 15, 25, 35, 44]
+  },
+  {
+    name: "MAHAPRABHU BRICK",
+    type: "brick",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "MAHAPRABHU BRICK",
+    amount: "$1600",
+    pic: require("../../src/coin/golden_brick_thumb.png"),
+    modalTitle: "SPONSOR A MAHAPRABHU BRICK",
+    installmentArr: [1,2, 5, 10, 15, 25, 35, 44]
+  },
+  {
+    name: "GURU PARAMPARA BRICK",
+    type: "brick",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "GURU PARAMPARA BRICK",
+    amount: "$1600",
+    pic: require("../../src/coin/guru-parampara_brick_thumb3.png"),
+    modalTitle: "SPONSOR A GURU PARAMPARA BRICK",
+    installmentArr: [1,2, 5, 10, 15, 25, 35, 44]
+  },
+  {
+    name: "NRSIMHADEVA TILE",
+    type: "brick",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "NRSIMHADEVA TILE",
+    amount: "1,000",
+    pic: require("../../src/coin/nrisimha_golden_tile_2.png"),
+    modalTitle: "SPONSOR A NRSIMHADEVA TILE",
+    installmentArr: [1,2, 5, 10, 15, 25, 35, 44]
+  },
+  {
+    name: "VICTORY FLAG",
+    type: "flag",
+    flags:[{name:"Radha-Madhava/Pancatattva/Guru-parampara Dome Flag",cost:"$701"},{name:"Nrsimhadeva's Dome Flag",cost:"$501"},{name:"Planetarium Dome Flag",cost:"$501"}]
+    title: "RAISE A DAILY VICTORY FLAG",
+    pic: require("../../src/coin/tovp_dome_flag_thumb.png"),
+    modalTitle: "SPONSOR A DAILY VICTORY FLAG FOR A DOME"
+  },
+  {
+    name: "SQUARE FOOT",
+    type: "squareFoot",
+    soldOutStatus: false,
+    soldOutText: "",
+    title: "SQUARE FOOT",
+    amount: [{sq.ft:"$150"},{sq.m:"$1500"}],
+    pic: require("../../src/coin/sq_foot_campaign.png"),
+    modalTitle: "SPONSOR A SQUARE FOOT OR METER",
+    installmentArr: [1,2, 5, 10, 15, 25, 35, 44]
+  },
+  {
+    name: "DONATION",
+    type: "generalDonation",
+    title: "GENERAL DONATION",
+    amount: ["$5","$10","$20","$50","$108"],
+    pic: require("../../src/coin/general.png"),
+    modalTitle: "GENERAL DONATION"
+  }

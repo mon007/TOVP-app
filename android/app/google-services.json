@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "992839499229",
+    "firebase_url": "https://tovp-248009.firebaseio.com",
+    "project_id": "tovp-248009",
+    "storage_bucket": "tovp-248009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992839499229:android:ca51b4ab50e26c8e7fca34",
+        "android_client_info": {
+          "package_name": "com.tovp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992839499229-4sjne3pfej739dk04l93pvr52lopm77s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDCQyb5BH1ic3muhb1sjZi97erAlgWqC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992839499229-4sjne3pfej739dk04l93pvr52lopm77s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

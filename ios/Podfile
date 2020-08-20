@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Tovp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for Tovp
+  pod 'Firebase/Core', '~> 6.3.0'
+  pod 'Firebase/Messaging', '~> 6.3.0'
+  pod 'Firebase/Analytics'
+
+  #target 'Tovp-tvOSTests' do
+    #inherit! :search_paths
+    # Pods for testing
+  #end
+
+  #target 'TovpTests' do
+    #inherit! :search_paths
+    # Pods for testing
+  #end
+
+#end
+
+#target 'Tovp-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for Tovp-tvOS
+
+  #target 'Tovp-tvOSTests' do
+    #inherit! :search_paths
+    # Pods for testing
+  #end
+end
+post_install do |installer|
+  system("mkdir -p Pods/Headers/Public/FirebaseCore && cp Pods/FirebaseCore/Firebase/Core/Public/* Pods/Headers/Public/FirebaseCore/")
+end
