@@ -23,7 +23,7 @@ const razorpayKey = razorpayKeyLive;
 const razorpayKey_secret = razorpayKey_secretLive;
 
 //Change this to switch servers
-const activeUrl = production;
+const activeUrl = development;
 
 //don't touch this
 const apiUrl = activeUrl;
